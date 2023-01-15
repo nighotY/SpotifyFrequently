@@ -1,36 +1,36 @@
-## Spotify API
+# Spotify API
 
 
-#Features 
--
-Creating new playlist from Spotify Playlist(Generating new songs very frequently)
+### _Features_ 
 
-#Requirements
--Python 3
+- Creating new playlist from Spotify Playlist(Generating new songs very frequently)
 
-##Installation 
--
--Clone the repository
-git clone https://github.com/nighotY/SpotifyFrequently
+### _Requirements_ 
+- -Python 3
 
-if you would like to set the envornment
+### _Installation_ 
 
-python -m venv <enviormnet_name>
-to activate enviorment
- envoirment_name/Scripts/activate.bat
+- Clone the repository
+  git clone https://github.com/nighotY/SpotifyFrequently
+
+- if you would like to set the envornment
+
+  python -m venv <enviormnet_name>
+- to activate enviorment
+  envoirment_name/Scripts/activate.bat
  
--Install the requirements \
-cd Spotifyfrequently \
-pip install -r requirements.txt\
+- Install the requirements \
+  cd Spotifyfrequently \
+  pip install -r requirements.txt\
  
 
-##Setup 
--
+### _Setup_ 
 
--Head over to [Spotify for Developers] (https://developer.spotify.com/dashboard/applications) \
+
+- Head over to [Spotify for Developers] (https://developer.spotify.com/dashboard/applications) \
 and create an App \
-Open the App dashboard and find the Client ID and Client Secret \
-In the app settings, add your Redirect URIs
+- Open the App dashboard and find the Client ID and Client Secret \
+- In the app settings, add your Redirect URIs
 
 
 
