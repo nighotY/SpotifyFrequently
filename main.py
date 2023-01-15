@@ -1,14 +1,15 @@
 import json
 import requests
-from secrets import spotify_user_id,my_weekly_id
+from secrets1 import spotify_user_id, my_playlist_id
 from pprint import pp
 from datetime import date
 from refresh import Refresh
+
 class SaveSongs:
     def __init__(self):
         self.user_id = spotify_user_id
         self.spotify_token = ""
-        self.discover_weekly_id = my_weekly_id
+        self.discover_weekly_id = my_playlist_id
         self.tracks = ""
         self.new_playlist_id = ""
 
@@ -18,7 +19,7 @@ class SaveSongs:
         # Loop through playlist tracks, add them to list
         print("Finding songs.....")
 
-        url = f"https://api.spotify.com/v1/playlists/{my_weekly_id}/tracks"
+        url = f"https://api.spotify.com/v1/playlists/{my_playlist_id}/tracks"
         headers={"Content-Type": "application/json", "Authorization": f"Bearer {self.spotify_token}"}
         response = requests.get(url, headers=headers)
         response_json = response.json()
