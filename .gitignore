@@ -1,5 +1,5 @@
 venv/
 secrets1.py
 .env
-
+__pycache__
 
