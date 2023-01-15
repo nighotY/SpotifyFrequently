@@ -16,10 +16,10 @@
 - if you would like to set the envornment
 
   python -m venv <enviormnet_name>
-- to activate enviorment
+- to activate enviorment \
   envoirment_name/Scripts/activate.bat
  
-- Install the requirements \
+- Install the necessary packages by running:  \
   cd Spotifyfrequently \
   pip install -r requirements.txt\
  
