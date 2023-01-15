@@ -1,7 +1,7 @@
 
 import requests
 from pprint import pp
-from secrets import refresh_token, base_64
+from secrets1 import refresh_token, base_64
 
 
 class Refresh:                                     # To generate refresh token 
